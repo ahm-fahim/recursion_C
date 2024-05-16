@@ -1,0 +1,9 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     quiz2
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z4funci, symObjAddr: 0x0, symBinAddr: 0x100003E74, symSize: 0x58 }
+  - { offsetInCU: 0x6A15, offset: 0x6A15, size: 0x8, addend: 0x0, symName: __Z4funci, symObjAddr: 0x0, symBinAddr: 0x100003E74, symSize: 0x58 }
+  - { offsetInCU: 0x6A41, offset: 0x6A41, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x58, symBinAddr: 0x100003ECC, symSize: 0x90 }
+  - { offsetInCU: 0x6B11, offset: 0x6B11, size: 0x8, addend: 0x0, symName: __ZNSt3__19basic_iosIcNS_11char_traitsIcEEE3tieB8ue170006EPNS_13basic_ostreamIcS2_EE, symObjAddr: 0xE8, symBinAddr: 0x100003F5C, symSize: 0x2C }
+...
